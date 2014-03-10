@@ -1,5 +1,6 @@
 function love.conf(t)
     t.identity = "Flapoline"
+    t.version = "0.9.0"
     t.console = false
 
     t.window.title = "Flapoline"
