@@ -38,9 +38,9 @@ function Obstacle:reset(x)
     self.upper = 
     { 
         x = self.x, 
-        y = 0,                                  
+        y = -240,                                  
         width = self.width, 
-        height = self.apertureY - self.apertureHeight / 2
+        height = 240 + self.apertureY - self.apertureHeight / 2
     }
     self.lower = 
     { 
